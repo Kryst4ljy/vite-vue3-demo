@@ -1,4 +1,4 @@
-import HttpRequest from "@/libs/axios";
+import HttpRequest from "/@/libs/axios";
 
 const axios = new HttpRequest();
 
