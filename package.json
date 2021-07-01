@@ -11,6 +11,7 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@vue/babel-plugin-jsx": "^1.0.6",
     "@vue/compiler-sfc": "^3.0.4",
     "axios": "^0.21.1",
     "better-scroll": "^2.4.1",

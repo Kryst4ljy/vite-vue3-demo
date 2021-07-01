@@ -6,6 +6,11 @@ const routes = [
     name: "index",
     component: () => import("../pages/hello/index.vue"),
   },
+  {
+    path: "/test",
+    name: "test",
+    component: () => import("../pages/test/test.jsx"),
+  },
 ];
 
 const router = createRouter({
