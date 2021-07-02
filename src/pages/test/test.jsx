@@ -1,4 +1,5 @@
 import { defineComponent, ref } from "vue";
+import styles from "./index.module.scss";
 
 const test = defineComponent({
   setup() {
@@ -9,7 +10,11 @@ const test = defineComponent({
     };
   },
   render() {
-    return <div>{this.title}</div>;
+    return (
+      <div>
+        <p className={styles["test"]}>{this.title}</p>
+      </div>
+    );
   },
 });
 
