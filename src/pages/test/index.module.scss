@@ -1,3 +1,8 @@
-.test {
-  background-color: pink;
+.scroll {
+  height: 100%;
+  overflow: hidden;
+  .test {
+    background-color: pink;
+    height: 3000px;
+  }
 }
