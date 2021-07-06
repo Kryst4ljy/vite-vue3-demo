@@ -23,4 +23,11 @@ module.exports = defineConfig({
     jsxFragment: "Fragment",
     jsxInject: "import { h } from 'vue';",
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "@/styles/variable.scss";`,
+      },
+    },
+  },
 });
